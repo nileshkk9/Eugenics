@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionSortA_Z"
+        android:orderInCategory="100"
+        android:title="Sort A-Z"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionSortZ_A"
+        android:orderInCategory="100"
+        android:title="Sort Z-A"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_SortByMonth"
+        android:orderInCategory="100"
+        android:title="Sort By Month"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_SortByYear"
+        android:orderInCategory="100"
+        android:title="Sort By Year"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortDateAsc"
+        android:orderInCategory="100"
+        android:title="Sort By Date(Asc.)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortDateDesc"
+        android:orderInCategory="100"
+        android:title="Sort By Date(Desc.)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="never" />
+</menu>

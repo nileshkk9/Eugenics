@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+
+    <TextView
+            android:text="D"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/magTxt"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:background="@drawable/magnitude_circle"
+            android:gravity="center"
+            android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/first">
+
+
+        <TextView
+            android:text="Place"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/placeTxt"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="12sp"
+            android:ellipsize="end"
+            android:textColor="@color/textColorEarthquakeDetails" />
+
+    <TextView
+        android:text="D's name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boldPlace"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/textColorEarthquakeLocation"
+        android:textSize="16sp" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:id="@+id/second">
+
+
+    <TextView
+        android:id="@+id/dateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:textSize="12sp"
+        android:text="Feb 2, 2016" />
+    <TextView
+        android:text="05:43 PM"
+        android:id="@+id/timeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
